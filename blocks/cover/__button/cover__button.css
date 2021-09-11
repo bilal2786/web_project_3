@@ -1,0 +1,20 @@
+.cover__button{
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  padding:  13px 20px 13px 20px;
+  margin-top: 32px;
+  height: 48px;
+  width: 137;
+  color: white;
+  background-color: #0278fe;
+  border-radius: 4px;
+  border-style: none;
+  align-content: center;
+  transition: 1s;
+  cursor: pointer;
+}
+.cover__button:hover{
+  background-color: #0063d2;
+  opacity: 0.8;
+}

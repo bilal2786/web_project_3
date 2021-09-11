@@ -1,0 +1,13 @@
+.place__history{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-area: text;
+    margin: 0px;
+  }
+  
+@media screen and (max-width: 700px) {
+  .place__history {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

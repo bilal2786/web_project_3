@@ -1,0 +1,20 @@
+
+
+.place__artist_name{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #aaaaaa;
+    margin: 0px;
+    margin-bottom: ;
+  }
+
+  
+@media screen and (max-width: 320px) {
+  .place__artist_name {
+    line-height: 100%;
+    margin-bottom: 12px;
+    margin-top: 12px;  
+}
+}
