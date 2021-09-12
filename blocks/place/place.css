@@ -7,7 +7,7 @@
   grid-template-rows: minmax(46px, auto) minmax(340px, auto) 1fr;
   grid-template-areas:
     "title artist"
-    "image text"
+     "image text"
     "button text";
   }
   .place:last-child {
@@ -28,4 +28,16 @@
     flex-direction: column;
     grid-gap: 0;
   }
+}
+@media screen and (max-width: 360px) {
+  .place{
+    grid-template-areas: 
+    "title title"
+    "artist artist"
+    "image image"
+    "text text"
+    "button button";
+   
+  }
+  
 }

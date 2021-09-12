@@ -1,27 +1,26 @@
 
-
 .place__button{
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    color: white;
-    background-color: #0278fe;
-    border-radius: 4px;
-    max-width: 248px;
-    align-content: center;
-    grid-area: button;
-    transition: 1s;
-    grid-column: 1 / 2;
-    padding:  13px 20px 13px 20px;
-  }
-  .place__button:hover{
-    background-color:  #0063d2;
-  }
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  background-color: #0278fe;
+  border-radius: 4px;
+  max-width: 248px;
+  align-content: center;
+  grid-area: button;
+  transition: 1s;
+  grid-column: 1 / 2;
+  padding:  13px 20px 13px 20px;
+}
+.place__button:hover{
+  background-color:  #0063d2;
+}
 
 
 @media screen and (max-width: 540px) {
-  .place__button {
-    width: 288px;
-    margin: 30px auto 0;
-  }
+.place__button {
+  width: 288px;
+  margin: 30px auto 0;
+}
 }
