@@ -5,7 +5,7 @@
     margin: 0px;
   }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: px) {
   .place__history {
     margin-left: 16px;
     margin-right: 16px;

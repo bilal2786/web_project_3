@@ -1,6 +1,6 @@
 
 
-.place__artist_name{
+.place__artist-name {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -9,7 +9,9 @@
     margin: 0px;
   }  
 @media screen and (max-width: 320px) {
+  
   .place__artist_name {
+    display: grid;
     line-height: 100%;
     margin-bottom: 12px;
     margin-top: 12px;

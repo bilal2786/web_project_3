@@ -1,0 +1,16 @@
+
+.intro__text-top{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 142%;
+    margin: 40px 0 0 0;
+    color: white;
+  }
+  @media screen and (max-width: 510px) {
+    .intro__text-top {
+      line-height: 30px;
+      max-width: 288px;
+    }
+  }
