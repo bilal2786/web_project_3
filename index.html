@@ -4,15 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Homeland To Homeland</title>
   </head>
   <body>
     <div class="page">
         <header class="header">
-            <img class="logo" src="./images/logo.svg" alt="Practicum logo">
-            <p class="header__title">PRACTICUM ART GALLERY</p>    
+            <img class="header__title" src="./images/logo.svg" alt="Practicum logo"> 
         </header>
         <main>
             <section class="lead">
@@ -48,18 +46,18 @@
                   neighbor.
                 </p>
               </section>
-              <section class="grid">
-                <img src="./images/1.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/2.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/3.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/4.png" alt="Landscape photo" class="grid__image" />
-                <img src="./images/5.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/6.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/7.jpg" alt="Landscape photo" class="grid__image" />
-                <img src="./images/8.jpg" alt="Landscape photo" class="grid__image" />
-              </section>
+              <ul class="grid">
+                <li><img src="./images/1.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/2.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/3.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/4.png" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/5.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/6.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/7.jpg" alt="Landscape photo" class="grid__image" /></li>
+                <li><img src="./images/8.jpg" alt="Landscape photo" class="grid__image" /></li>
+                </ul>
               <section class="places">
-                <div class="place">
+                <article class="place">
                   <h2 class="place__title">Kyiv, Ukraine</h2>
                   <button class="place__button">Buy this artwork as NFT</button>
                   <div class="place__artist">
@@ -89,8 +87,8 @@
                       of the right one.
                     </p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                   <h2 class="place__title">Cricieth, Wales</h2>
                   <div class="place__artist">
                     <p class="place__artist-header">Artist</p>
@@ -119,8 +117,8 @@
                       to hold the office of Prime Minister of the UK.
                     </p>
                   </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                   <h2 class="place__title">Berea, USA</h2>
                   <div class="place__artist">
                     <p class="place__artist-header">Artist</p>
@@ -147,8 +145,8 @@
                       student receives a full-tuition scholarship.
                     </p>
                   </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                   <h2 class="place__title">Muramvya, Burundi</h2>
                   <div class="place__artist">
                     <p class="place__artist-header">Artist</p>
@@ -186,8 +184,8 @@
                       the country.
                     </p>
                   </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                   <h2 class="place__title">Majdal-shams, Israel</h2>
                   <button class="place__button">Buy this artwork as NFT</button> 
                   <div class="place__artist">
@@ -215,21 +213,22 @@
                     </p>
 
                   </div>
-                </div>
+                </article>
               </section>
               <section class="cover">
                 <div class="cover__content">
                     <h2 class="cover__title">Visit us</h2>
-                    <ul class="cover__subtitle">
-                        <li>Year-round</li>
-                        <li>Practicum Art Gallery</li>
-                        <li>404 Tim Berners-Lee Ave</li>
-                    </ul>
+                    <div class="cover__subtitle">
+                        <p>Year-round</p>
+                        <p>Practicum Art Gallery</p>
+                        <p>404 Tim Berners-Lee Ave</p>
+                        <button class="cover__button">Buy Tickets</button>
+                    </div>
                 </div>
               </section>
             </main>
            <footer>    
-              <h2 class="footer">© 2021. Bilal Safady</h2>
+              <p class="footer">© 2021. Bilal Safady</p>
             </footer>
       </div>
   </body>

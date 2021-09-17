@@ -1,16 +1,11 @@
-  .header__title{
-    margin: 20px 0 0 0;
-    color: white;
-    font: size 20px;
-    line-height: 83%;
-    font-weight: 900;
-    font-family: "Inter", sans-serif;
-    text-transform: uppercase;
-  }
+.header__title {
+    max-width: 271px;
+    margin-top: 34px;
+}
 
-  
-@media screen and (max-width: 500px) {
-  .header__subtitle {
-    font-size: 14.5px;
-  }
+@media screen and (max-width: 320px) {
+    .header__title {
+        max-width: 200px;
+        margin-top: 20px;
+    }
 }
