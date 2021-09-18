@@ -1,7 +1,9 @@
 
 .place__button{
+  border: 0pt;
   font-family: "Inter", sans-serif;
   font-size: 18px;
+  font-weight:600;
   line-height: 22px;
   color: white;
   background-color: #0278fe;
@@ -11,7 +13,10 @@
   grid-area: button;
   transition: 1s;
   grid-column: 1 / 2;
-  padding:  13px 20px 13px 20px;
+  padding:  13px 20px ;
+  letter-spacing: 0em;
+  margin: 0;
+
 }
 .place__button:hover{
   background-color:  #0063d2;
