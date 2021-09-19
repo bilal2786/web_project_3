@@ -9,6 +9,7 @@
   background-color: #0278fe;
   border-radius: 4px;
   max-width: 248px;
+  max-height: 48px;
   align-content: center;
   grid-area: button;
   transition: 1s;
@@ -26,6 +27,6 @@
 @media screen and (max-width: 320px) {
 .place__button {
   width: 288px;
-  margin: 30px auto 0;
+  margin: 0 auto 0;
 }
 }

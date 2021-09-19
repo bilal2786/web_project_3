@@ -7,7 +7,7 @@
   margin: 0;
   grid-column: 1/2;
   grid-area: title;
-  
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 860px) {
@@ -19,6 +19,10 @@
 @media screen and (max-width: 700px) {
   .place__title {
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 16px;    
+    height: 70px;
+    width: 288px;
+    left: 16px;
+    border-radius: nullpx;
   }
 }

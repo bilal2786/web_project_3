@@ -1,4 +1,6 @@
   .cover {
+    align-items: center;
+    max-height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +10,7 @@
     min-height: calc(100vw / 1.6);
     background-image: url(../../images/background.jpg);
     max-width: 1184px;
-    margin: 105px auto 0px auto;
+    margin: 88px auto 0px auto;
   }
 
   
@@ -27,3 +29,8 @@
 .cover:hover::before {
   opacity: 0.8;
 }
+@media screen and (max-width: 768px) {
+  .cover{
+    height: 254px;
+    margin-top: 48px;
+  }
