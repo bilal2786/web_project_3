@@ -33,7 +33,7 @@
     "text"
     "button";
   grid-template-rows: auto;
-  grid-template-columns: auto; 
+  grid-template-columns: auto;
   grid-row-gap:  30px;
   margin-bottom: 48px;
   }
