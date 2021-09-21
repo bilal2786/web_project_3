@@ -10,19 +10,19 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
-    line-height: 40px;
+    line-height: 46px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 320px) {
   .place__title {
     margin-left: 16px;
     margin-right: 16px;
-    height: 70px;
     width: 288px;
-    left: 16px;
     border-radius: nullpx;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

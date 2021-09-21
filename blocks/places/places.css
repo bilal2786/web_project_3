@@ -1,12 +1,13 @@
   .places{
     max-width: 987px;
     display: block;
-    margin: 92px auto 0 auto;
+    margin: 118px auto 0 auto;
   } 
 
   
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
+    margin-top: 90px;
   }
 }

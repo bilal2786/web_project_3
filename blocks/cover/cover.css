@@ -1,12 +1,12 @@
   .cover {
-    max-height: 740px;
+    min-height: Calc(100vw / 1.6);
+    max-height:740px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: calc(100vw / 1.6);
     background-image: url(../../images/background.jpg);
     max-width: 1184px;
     margin: 88px auto 0px auto;
@@ -16,7 +16,6 @@
 .cover::before {
   content: " ";
   background-color: #2a2c2f;
-  min-height: calc(100vw / 1.6);
   width: 100%;
   position: absolute;
   opacity: 0.2;
@@ -30,7 +29,6 @@
 }
 @media screen and (max-width: 768px) {
   .cover{
-    height: 254px;
-    margin-top: 48px;
+    margin-top: 88px;
   }
 }

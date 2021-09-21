@@ -1,18 +1,18 @@
 .place__paragraph{
-  margin-bottom: 25px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
+  margin-top: 0;
+  margin-bottom: 25px;
   line-height: 1.63;
   grid-area: text;
   color: white;
 
 }
 
-.place__paragraph:first-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0px;
-  margin-top: 0px;
 }
 
 @media screen and (max-width: 890px) {
