@@ -9,16 +9,11 @@
      "image text"
     "button text";
   }
-  .place:last-child {
-  margin-bottom: 0;
-  }
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-column-gap: 28px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }
 
@@ -28,7 +23,6 @@
     grid-template-areas: 
     "title"
     "artist"
-    "name"
     "image"
     "text"
     "button";
@@ -36,6 +30,13 @@
   grid-template-columns: auto;
   grid-row-gap:  30px;
   margin-bottom: 48px;
+  }
+}
+
+  @media screen and (max-width: 320px) {
+    .place {
+      margin: 0;
+      margin-bottom: 48px;  
   }
   
 }

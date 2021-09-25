@@ -23,7 +23,8 @@
 }
 @media screen and (max-width: 540px) {
 .place__paragraph {
-    margin: 32px auto 0;
+    margin: 0 auto 0;
     padding: 0;
+    grid-row-gap: 32px;
 }
 }

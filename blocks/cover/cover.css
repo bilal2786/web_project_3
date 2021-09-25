@@ -1,6 +1,5 @@
   .cover {
-    min-height: calc(100vw / 1.6);
-    max-height:740px;
+    min-height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,13 +21,24 @@
   cursor: pointer;
   transition: opacity 1s linear;
   max-width: 1184px;
+  min-height: 740px;
 }
   
-.cover:hover::before {
+.cover:hover::before{
   opacity: 0.8;
 }
+
 @media screen and (max-width: 768px) {
   .cover{
-    margin-top: 88px;
+    margin-top: 0;
   }
+}
+@media screen and (max-width: 320px){
+  .cover{
+    min-height: 254px;
+  }
+  .cover::before{
+    min-height: 254px;
+  }
+  
 }

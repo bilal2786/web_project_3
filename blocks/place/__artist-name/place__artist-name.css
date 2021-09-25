@@ -10,10 +10,7 @@
 }  
 @media screen and (max-width: 320px) {
 
-.place__artist_name {
-  display: grid;
+.place__artist-name {
   line-height: 100%;
-  margin-bottom: 12px;
-  margin-top: 12px;
 }
 }
