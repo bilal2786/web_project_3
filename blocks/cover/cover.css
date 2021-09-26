@@ -5,7 +5,7 @@
     justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-image: url(../../images/background.jpg);
     max-width: 1184px;
     margin: 88px auto 0px auto;

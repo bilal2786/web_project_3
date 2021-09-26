@@ -15,6 +15,9 @@
   .place {
     grid-column-gap: 28px;
   }
+  .place:last-child{
+    margin-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -38,6 +41,8 @@
       margin: 0;
       margin-bottom: 48px;  
   }
-  
+   .place:last-child{
+     margin-bottom: 64px;
+   }
 }
 
