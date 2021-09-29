@@ -33,8 +33,9 @@
   grid-template-columns: auto;
   grid-row-gap:  30px;
   margin-bottom: 48px;
-      margin: 0;
-      margin-bottom: 48px;  
+  margin: 0;
+  margin-bottom: 48px;
+  }  
    .place:last-child{
      margin-bottom: 64px;
 
