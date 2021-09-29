@@ -10,7 +10,7 @@
     grid-area: artist;
  }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 540px) {
   .place__artist-header {
     line-height: 100%;
     margin-bottom: 12px;

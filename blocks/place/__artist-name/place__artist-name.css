@@ -8,7 +8,7 @@
   color: white;
   margin: 0px;
 }  
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
 
 .place__artist-name {
   line-height: 100%;
