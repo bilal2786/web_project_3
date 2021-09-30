@@ -7,8 +7,9 @@
   line-height: 22px;
   color: white;
   background-color: #0278fe;
+  box-sizing: border-box;
   border-radius: 4px;
-  min-width: 288px;
+  min-width: 248px;
   max-height: 48px;
   align-content: center;
   grid-area: button;
@@ -27,5 +28,6 @@
 @media screen and (max-width: 540px) {
 .place__button {
   margin: 0 auto 0;
+  min-width: 288px;
 }
 }
